@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/zlouis/react-photography/issues"
   },
-  "homepage": "https://github.com/zlouis/react-photography#readme"
+  "homepage": "https://github.com/zlouis/react-photography#readme",
+  "dependencies": {
+    "babel-core": "^6.22.1"
+  }
 }
