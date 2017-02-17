@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // import Counter from './Counter';
 import Header from './components/Header';
-// import styles from
+
 
  
 // document.addEventListener('DOMContentLoaded', function() {

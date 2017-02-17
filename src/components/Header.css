@@ -1,3 +1,53 @@
-.portstyle {
-  size: 99px;
+/*.portstyle{
+  padding: 2px;
+  margin-right:1.7%;
+
+}
+.travelstyle{
+  padding: 2px;
+  margin-right:1.7%;
+}
+
+.kitchenstyle{
+  padding: 2px;
+  margin-right:1.7%;
+}
+
+.contactstyle{
+  padding: 2px;
+  margin-right:1.7%;
+}
+*/
+.navbar {
+  background: white;
+    padding-bottom: 3%;
+
+}
+
+.headerLinks{
+  margin-top:2%;
+  margin-left: 8.0%;
+    color: black;
+
+}
+.bodyContainer{
+  margin-top:5%;
+}
+
+.navbarfont {
+    font-family: proxima-nova, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2em;
+    text-transform: none;
+    letter-spacing: 0px;
+    /*******headerlinks*****/
+    margin-top:2%;
+     margin-left: 8.0%;
+    color: black;
+    /**********bodycontainer*/
+   margin-top:5%;
+   background-color:white;
+   border-style:none;
 }
