@@ -22,7 +22,7 @@ challenges faced:
 * Express
 * bodyParser
 * Morgan
-*~~Robomongo~~
+* ~~Robomongo~~
 * React-Bootstrap
 
 ## Authors
