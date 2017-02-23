@@ -43,14 +43,14 @@ db.once('open', function(){
 });
 
 //dropbox connection
-var dbx = new Dropbox({ accessToken: 'fSYqugPOt-IAAAAAAAAEEbxq1UkI2CdnuCBQjKAtypjcm8nyn8nE7U_FcqtdFBMH' });
-dbx.filesListFolder({path: '/MoMa_Apr2016'})
-  .then(function(response) {
-    console.log(response);
-  })
-  .catch(function(error) {
-    console.log(error);
-  });
+// var dbx = new Dropbox({ accessToken: 'fSYqugPOt-IAAAAAAAAEEbxq1UkI2CdnuCBQjKAtypjcm8nyn8nE7U_FcqtdFBMH' });
+// dbx.filesListFolder({path: '/MoMa_Apr2016'})
+//   .then(function(response) {
+//     console.log(response);
+//   })
+//   .catch(function(error) {
+//     console.log(error);
+//   });
 
 
 
