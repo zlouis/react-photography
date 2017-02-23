@@ -17,12 +17,12 @@ challenges faced:
 ##Built With
 * ReactJs
 * NodeJs
-~~* MongoDB ~~
-~~* Mongoose ~~
+* ~~MongoDB~~
+* ~~Mongoose~~
 * Express
 * bodyParser
 * Morgan
-~~* Robomongo ~~
+*~~Robomongo~~
 * React-Bootstrap
 
 ## Authors
