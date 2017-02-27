@@ -12,6 +12,7 @@ challenges faced:
 * Flickr API allows hosting; however, there are limited sizes availible to be displayed.
 * Mongodb not feasible for what I want accomplished. Storing images in database is tedious since I constantly change and update photos.
 * FileSystem is not ideal with limited space on local storage
+* Routing
 
 
 ##Built With
