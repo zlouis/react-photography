@@ -5,13 +5,6 @@ import Header from './components/Header';
 import FrontPage from './pages/FrontPage';
 
 
- 
-// document.addEventListener('DOMContentLoaded', function() {
-//   ReactDOM.render(
-//     React.createElement(Counter),
-//     document.getElementById('mount')
-//   );
-// });
 
 ReactDOM.render(
 <div>
