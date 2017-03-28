@@ -20,6 +20,10 @@ app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
 
 app.use(express.static(__dirname + '/www'));
  
+app.get('*', function (request, response){
+    response.sendFile(path.resolve(__dirname, 'www', 'index.html'))
+})
+
 app.use(webpackDevMiddleware(compiler, {
   hot: true,
   filename: 'bundle.js',
