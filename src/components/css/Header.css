@@ -1,0 +1,29 @@
+a {
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    margin-top: 15px !important;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    height: 13px;
+}
+
+/*a.navAdventure {
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    margin-top: 15px !important;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+
+}*/
+.navBackground{
+  background-color: white;
+  border:none;
+  font-size: 14px;
+  font-size: normal;
+}
