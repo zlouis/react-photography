@@ -11,6 +11,7 @@ import styles from './css/Header.css';
 
 
 
+
 const Main =() => {
     return (
 
@@ -26,7 +27,7 @@ const Main =() => {
     </Navbar.Header>
     <Navbar.Collapse>
       <Nav>
-        <NavItem eventKey={1} href="#"><Link to='/adventure' className={styles.navAdventure}> Adventure</Link></NavItem>
+        <NavItem eventKey={1} href="#"><Link to='/adventure' className={[styles.navAdventure], [styles.headerLinks]}> Adventure</Link></NavItem>
         <NavItem eventKey={2} href="#"><Link to='/kitchen'> About</Link></NavItem>
           <hr/>
             <Router exactly pattern='/' component={Home}/>
