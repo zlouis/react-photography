@@ -26,16 +26,16 @@ a {
   border:none;
   font-size: 14px;
   font-size: normal;
-  text-decoration: none;
 }
 
-/*.headerLinks  {
+.headerLinks  {
   position: relative;
   color: black;
 
 }
 .headerLinks:hover {
   color: #000;
+  text-decoration:none;
 }
 .headerLinks:before {
   content: "";
@@ -58,4 +58,4 @@ a {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
   -moz-transform: translateX(0px);
-}*/
+}
