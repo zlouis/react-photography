@@ -36,6 +36,7 @@ const Main =() => {
       </Nav>
        </Navbar.Collapse>
   </Navbar>
+  
     <Grid>
     <Row className>
       <Col md={6} md={12} className={styles.carouselPosition} >
