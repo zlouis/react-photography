@@ -59,3 +59,10 @@ a {
   transform: scaleX(1);
   -moz-transform: translateX(0px);
 }
+
+
+/******************** CAROUSEL ********************/
+.carouselPosition {
+height:100%;
+width:100%;
+}
