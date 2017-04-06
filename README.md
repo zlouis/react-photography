@@ -12,7 +12,7 @@ challenges faced:
 * Flickr API allows hosting; however, there are limited sizes availible to be displayed.
 * Mongodb not feasible for what I want accomplished. Storing images in database is tedious since I constantly change and update photos.
 * FileSystem is not ideal with limited space on local storage
-* Routing
+* Currently, I'm using the lastest React-router which is v4.0.0. The useage of routing in react has drastically changed since after v3. v4 does not require the use of browserHistory or hashHistory.
 
 
 ##Built With
