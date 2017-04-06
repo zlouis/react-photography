@@ -38,7 +38,7 @@ const Main =() => {
   </Navbar>
 
     <Grid>
-    <Row className>
+    <Row >
       <Col md={6} md={12} className={styles.carouselPosition} >
         <Carousel>
     <Carousel.Item>
@@ -79,6 +79,16 @@ const Main =() => {
   </Carousel>
 </Col>
 </Row>
+</Grid>
+
+<Grid>
+  <Row>
+   <Col md={6} md={4} className={styles.carouselPosition}>
+      <img src="http://placehold.it/291x363" class="fancybox " data-big="https://docs.google.com/uc?id=0B0huBtqYaof7X1ROMUxRMjVsN00"/>
+    </Col>
+  </Row>
+
+
 </Grid>
 
 
