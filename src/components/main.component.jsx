@@ -21,22 +21,22 @@ const Main =() => {
 <Navbar collapseOnSelect className={styles.navBackground}>
     <Navbar.Header>
       <Navbar.Brand>
-        <Link to='/'> S & L </Link>
+        <Link to='/'> S & L </Link> 
       </Navbar.Brand>
-      <Navbar.Toggle />
+      <Navbar.Toggle/>
     </Navbar.Header>
     <Navbar.Collapse>
       <Nav>
-        <NavItem eventKey={1} href="#"><Link to='/adventure' className={[styles.navAdventure], [styles.headerLinks]}> Adventure</Link></NavItem>
-        <NavItem eventKey={2} href="#"><Link to='/about' className={styles.headerLinks}> About</Link></NavItem>
+        <NavItem><Link to='/FrontPage' className={[styles.navAdventure], [styles.headerLinks]}> Adventure</Link></NavItem>
+        <NavItem><Link to='/about' className={styles.headerLinks}> About</Link></NavItem>
           <hr/>
-            <Router exactly pattern='/' component={Home}/>
-            <Router pattern='/adventure' component={Adventure}/>
-            <Router pattern='/about' component={About}/> 
+            <Route exact path='/' component={Home}/>
+            <Route path='/frontpage' component={FrontPage}/>
+            <Route path='/about' component={About}/> 
       </Nav>
        </Navbar.Collapse>
   </Navbar>
-  
+
     <Grid>
     <Row className>
       <Col md={6} md={12} className={styles.carouselPosition} >
