@@ -13,7 +13,7 @@ challenges faced:
 * Mongodb not feasible for what I want accomplished. Storing images in database is tedious since I constantly change and update photos.
 * FileSystem is not ideal with limited space on local storage
 * Currently, I'm using the lastest React-router which is v4.0.0. The useage of routing in react has drastically changed since after v3. v4 does not require the use of browserHistory or hashHistory.
-
+* Stumbled an issue using lightbox, (react-images) the documentation is not fully written and difficult to implement. Solution: Found an alternative: react-image-lightbox has more support to its functionality and uses, therefore will be using this source instead.
 
 ##Built With
 * ReactJs
