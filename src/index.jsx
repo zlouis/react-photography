@@ -8,10 +8,10 @@ import Adventure from './components/adventure.component.jsx';
 import { Navbar, Nav, NavItem, Carousel,Grid, Row, Col } from 'react-bootstrap'; 
 import styles from './components/css/Header.css';
 import About from './components/about.component.jsx';
-
 import Main from './components/main.component.jsx';
 
 ReactDOM.render(
+  
        <Router>
       <div>
 
