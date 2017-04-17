@@ -4,6 +4,11 @@ import { Grid, Row, Col } from 'react-bootstrap';
 import dropboxapi from '../utility/dropboxapi'
 import Masonry from 'react-masonry-component'
 import styles from './Frontassets/adventureCover.css'
+import Album from './album.component.jsx';
+import { BrowserRouter as Router, Link, Route, Miss } from 'react-router-dom';
+
+
+
 
 const masonryOptions = {
     transitionDuration: 0
@@ -35,20 +40,18 @@ const elements = [
     });
 
     return(
+      <Router>
       <div>
+        <Link to='/frontpage/album'><img src="https://docs.google.com/uc?id=0B0huBtqYaof7bzZROFhtMUNCdHM" className={styles.photoSize} /></Link>
+
         
-            <Masonry
-                className={'my-gallery-class'} // default ''
-                elementType={'ul'} // default 'div'
-                options={masonryOptions} // default {}
-                disableImagesLoaded={false} // default false
-                updateOnEachImageLoad={false} // default false and works only if disableImagesLoaded is false
-            >
-                {childElements}
-            </Masonry>
+        <Route path='/frontpage/album' component={Album}/>
+
+
 
     
       </div>
+      </Router>
 
       )
   }
@@ -57,3 +60,12 @@ const elements = [
 
 export default FrontPage;
 
+            // <Masonry
+            //     className={'my-gallery-class'}  
+            //     elementType={'ul'}  
+            //     options={masonryOptions}  
+            //     disableImagesLoaded={false}  
+            //     updateOnEachImageLoad={false}  
+            // >
+            //     {childElements}
+            // </Masonry>
