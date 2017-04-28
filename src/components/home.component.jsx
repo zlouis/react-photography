@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Nav, NavItem, Carousel,Grid, Row, Col } from 'react-bootstrap'; 
+import { Navbar, Nav, NavItem, Carousel,Grid, Row, Col, Fade } from 'react-bootstrap'; 
 import styles from './css/Header.css';
 import Lightbox from 'react-image-lightbox';
 
@@ -33,41 +33,26 @@ export default class Home extends Component {
            <Grid>
     <Row >
       <Col md={6} md={12}>
-        <Carousel>
-    <Carousel.Item>
-      <img  alt="900x500" src="https://docs.google.com/uc?id=0B0huBtqYaof7d0s1N0NRZllwakE"/>
-      <Carousel.Caption>
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue moll is interdum.</p>
-      </Carousel.Caption>
+        <Carousel >
+    <Carousel.Item className={styles.carouselPosition} className={styles.carouselcontrol} >
+     <img  className={styles.carouselPosition} src="https://docs.google.com/uc?id=0B0huBtqYaof7c0dpVFdGbGl0MWs"/>
+
     </Carousel.Item>
-    <Carousel.Item>
-      <img src="https://docs.google.com/uc?id=0B0huBtqYaof7MVAySV9jME9TWWM"/>
-      <Carousel.Caption>
-        <h3>Second slide label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </Carousel.Caption>
+    <Carousel.Item className={styles.carouselPosition}>
+      <img  src="https://docs.google.com/uc?id=0B0huBtqYaof7MVAySV9jME9TWWM"/>
+
     </Carousel.Item>
-    <Carousel.Item>
-      <img  src="https://docs.google.com/uc?id=0B0huBtqYaof7N250S3JicmxxNmM"/>
-      <Carousel.Caption>
-        <h3>Third slide label</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-      </Carousel.Caption>
+    <Carousel.Item className={styles.carouselPosition}>
+      <img src="https://docs.google.com/uc?id=0B0huBtqYaof7N250S3JicmxxNmM"/>
+
     </Carousel.Item>
-        <Carousel.Item>
-      <img  src="https://docs.google.com/uc?id=0B0huBtqYaof7MDF5Vm1VYWhoY3M"/>
-      <Carousel.Caption>
-        <h3>Third slide label</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-      </Carousel.Caption>
+        <Carousel.Item className={styles.carouselPosition}>
+      <img   src="https://docs.google.com/uc?id=0B0huBtqYaof7MDF5Vm1VYWhoY3M"/>
+
     </Carousel.Item>
-        <Carousel.Item>
-      <img src="https://docs.google.com/uc?id=0B0huBtqYaof7X1ROMUxRMjVsN00"/>
-      <Carousel.Caption>
-        <h3>Third slide label</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-      </Carousel.Caption>
+        <Carousel.Item className={styles.carouselPosition}>
+      <img  src="https://docs.google.com/uc?id=0B0huBtqYaof7X1ROMUxRMjVsN00"/>
+ 
     </Carousel.Item>
   </Carousel>
 </Col>
@@ -76,7 +61,7 @@ export default class Home extends Component {
 
 <Grid>
   <Row>
-   <Col md={6} md={4} >
+   <Col md={6} md={4} className={styles.topImage}>
       <img src="http://placehold.it/291x363" onClick={() => this.setState({ isOpen: true })} />
       {isOpen &&
                     <Lightbox

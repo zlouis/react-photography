@@ -9,11 +9,19 @@ import { Navbar, Nav, NavItem, Carousel,Grid, Row, Col } from 'react-bootstrap';
 import styles from './components/css/Header.css';
 import About from './components/about.component.jsx';
 import Main from './components/main.component.jsx';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+
 
 ReactDOM.render(
+  <ReactCSSTransitionGroup
+  transitionName='fade'
+  transitionEnterTimeout={500}
+  transitionLeaveTimeout={500}
+>
   
        <Router>
       <div>
+
 
 <Navbar  className={styles.navBackground}>
     <Navbar.Header>
@@ -35,6 +43,8 @@ ReactDOM.render(
             <Route path='/about' component={About}/> 
   </div>
 
-  </Router>,
+
+  </Router>
+  </ReactCSSTransitionGroup>,
         document.getElementById("contents")
     )
