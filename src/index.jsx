@@ -13,13 +13,17 @@ import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 
 ReactDOM.render(
-  <ReactCSSTransitionGroup
-  transitionName='fade'
-  transitionEnterTimeout={500}
-  transitionLeaveTimeout={500}
->
+//  <ReactCSSTransitionGroup 
+//           transitionName="fade"
+//           transitionAppear={true}
+//           transitionLeave={true}
+//           transitionEnterTimeout={600}
+//           transitionAppearTimeout={600}
+//           transitionLeaveTimeout={300}>
+// >
+
   
-       <Router>
+     <Router>
       <div>
 
 
@@ -36,6 +40,7 @@ ReactDOM.render(
         <NavItem><Link to='/about' className={styles.headerLinks}> About</Link></NavItem>
       </Nav>
        </Navbar.Collapse>
+       <div id="top"></div>
   </Navbar>
          
             <Route exact path='/' component={Home}/>
@@ -45,6 +50,6 @@ ReactDOM.render(
 
 
   </Router>
-  </ReactCSSTransitionGroup>,
+ ,
         document.getElementById("contents")
     )

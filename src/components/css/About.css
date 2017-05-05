@@ -2,3 +2,7 @@
   padding: 20px;
 
 }
+
+.mouse:hover{
+  cursor: pointer; cursor: hand; 
+}

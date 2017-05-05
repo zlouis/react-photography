@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
 // import styles from './Header.css';
 import dropboxapi from '../utility/dropboxapi'
-import Masonry from 'react-masonry-component'
+import Masonry from 'react-masonry-component';
+import FingerLakes from './Albumset/FingerLakes.album.jsx';
 import Album from './album.component.jsx';
 import { BrowserRouter as Router, Link, Route, Miss } from 'react-router-dom';
 import styles from'./Frontassets/Adventure.css';
@@ -48,37 +49,48 @@ const elements = [
       <div>
        <div>
         <div id="top"></div>
-        <Route path='/frontpage/album' component={Album}/>
+        <Route path='/frontpage/FingerLakes' component={FingerLakes}/>
+        <Route path='/frontpage/Album' component={Album}/>
         <Route path='/frontpage/acadia' component={Acadia}/>
         </div>
 
-        <Row>
+        <Row className={styles.albumBreak}>
           <Col md={3} md={3} className={styles.container}>
-        <div className={styles.container}>
-           <Scrollchor to="top"><Link to='/frontpage/album'><img src="https://docs.google.com/uc?id=0B0huBtqYaof7Y1VPdmNEZzFQNkE"  className={styles.album} /></Link></Scrollchor>
-            <div>
+        <div className={styles.textContainer}>
+           <Scrollchor to="top"><Link to='/frontpage/FingerLakes'><img src="https://docs.google.com/uc?id=0B0huBtqYaof7Y1VPdmNEZzFQNkE"  className={styles.album} /></Link></Scrollchor>
+            <div >
                  <p className={styles.albumText}> - Finger Lakes, New York - </p>
             </div>
         </div>
           </Col>
           <Col md={3} md={3} className={styles.container}>
-        <div className={styles.container}>
+        <div className={styles.textContainer}> 
           <Scrollchor to="top"><Link to='/frontpage/album'><img src="https://docs.google.com/uc?id=0B0huBtqYaof7RV9GNS1uMENmZ3M"  className={styles.album} /></Link></Scrollchor>
-            <div>
+            <div  className={styles.textContainer}>
                  <p className={styles.albumText} >- Outter Banks, North Carolina -</p>
             </div>
         </div>
           </Col>
                 <Col md={3} md={3} className={styles.container}>
-        <div className={styles.container}>
+        <div className={styles.textContainer}>
           <Scrollchor to="top"><Link to='/frontpage/acadia'><img src="https://docs.google.com/uc?id=0B0huBtqYaof7VVpoc1EwQVRNVzA" className={styles.album } /></Link></Scrollchor>
-            <div>
+            <div  className={styles.textContainer}>
                  <p className={styles.albumText} >- Acadia, Maine -</p>
             </div>
         </div>
           </Col>
 
 
+          </Row>
+          <Row>
+                      <Col md={3} md={3} className={styles.container}>
+        <div className={styles.textContainer}>
+          <Scrollchor to="top"><Link to='/frontpage/acadia'><img src="https://docs.google.com/uc?id=0B0huBtqYaof7VVpoc1EwQVRNVzA" className={styles.album } /></Link></Scrollchor>
+            <div  className={styles.textContainer}>
+                 <p className={styles.albumText} >- Acadia, Maine -</p>
+            </div>
+        </div>
+          </Col>
           </Row>
    
 
