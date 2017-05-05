@@ -58,7 +58,7 @@ app.use(webpackDevMiddleware(compiler, {
 
 
 
-const server = app.listen(3000, function() {
+const server = app.listen(process.env.PORT || 3000, function() {
   const host = server.address().address;
   const port = server.address().port;
   console.log('listening on', host, port);
