@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
 // import styles from './Header.css';
 import dropboxapi from '../utility/dropboxapi'
-import FingerLakes from './Albumset/FingerLakes.album.jsx';
+import FingerLakes from './Albumset/FingerLakes-album.jsx';
 import Album from './album.component.jsx';
 import { BrowserRouter as Router, Link, Route, Miss } from 'react-router-dom';
 import styles from'./Frontassets/Adventure.css';

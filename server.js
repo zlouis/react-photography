@@ -35,16 +35,16 @@ app.use(webpackDevMiddleware(compiler, {
 }));
 
 //connecting to MongoDB
-mongoose.connect('mongodb://localhost/react-photography');
-var db = mongoose.connection;
+// mongoose.connect('mongodb://localhost/react-photography');
+// var db = mongoose.connection;
 
-db.on('error', function(err) {
-  console.log('Mongoose Error: ' + err);
-});
+// db.on('error', function(err) {
+//   console.log('Mongoose Error: ' + err);
+// });
 
-db.once('open', function(){
-  console.log("connected to Mongoose!")
-});
+// db.once('open', function(){
+//   console.log("connected to Mongoose!")
+// });
 
 //dropbox connection
 // var dbx = new Dropbox({ accessToken: 'fSYqugPOt-IAAAAAAAAEEbxq1UkI2CdnuCBQjKAtypjcm8nyn8nE7U_FcqtdFBMH' });
