@@ -2,6 +2,9 @@
 
 Personal photography website that is currently being built.
 Documenting the experiences as they unfold through my world travels.
+## Update 6.2.17
+* Text on hover in album section
+Won't be pushing publicly anymore as final version is coming up.
 
 ## Documenting Challenges
 I want to keep the website ultralight for fast loading, therefore I want to keep the code seperate from the images. Due to the following challenges I encountered the current solution is to use `https://docs.google.com/uc?+fileID`.
