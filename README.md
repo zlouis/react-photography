@@ -6,11 +6,14 @@ Documenting the experiences as they unfold through my world travels.
 * Added fade transition when page loads
 * fixed carousel button and display with infinity loop
 
+
 ## Update 6.2.17
 * Text on hover in album section
 * Won't be pushing publicly anymore as final version is coming up.
 * adding blog
-
+* add a non scrollable side bar for album description
+* change speed of "scroll-to-top" function in album
+* add description to about me 
 
 
 ## Documenting Challenges
