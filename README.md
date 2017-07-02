@@ -14,6 +14,7 @@ Documenting the experiences as they unfold through my world travels.
 * add a non scrollable side bar for album description
 * change speed of "scroll-to-top" function in album
 * add description to about me 
+* add footer
 
 
 ## Documenting Challenges
