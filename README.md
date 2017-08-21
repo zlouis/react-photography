@@ -3,8 +3,12 @@
 Personal photography website that is currently being built.
 Documenting the experiences as they unfold through my world travels.
 
+## 8.21.17
+* adding additional albums
+
 ## 8.1.17
 * fixed vertical align on front page images
+
 
 ## Update 6.30.17
 * Added fade transition when page loads
